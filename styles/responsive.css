@@ -28,7 +28,9 @@
 }
 
 @media (max-height: 760px) {
+    /*
     #page-home {
-       /*fix on background-position-y: 200px;*/
+       fix on background-position-y: 200px;
     }
+    */
 }
