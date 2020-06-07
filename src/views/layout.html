@@ -14,21 +14,30 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet"> 
         
         <link rel="stylesheet" href="/styles/main.css">
-        {% block styles %}{% endblock styles %}
+        
+        {% block styles %}
+        
+        {% endblock styles %}
 
         <link rel="stylesheet" href="/styles/responsive.css">
     </head>
     <body>
 
-        <div id="{{ bodyId }}">
+        <div id="{{ pageId }}">
             
-            {% block content %}{% endblock content %}
+            {% block content %}
+            
+            {% endblock content %}
 
         </div>
 
-        {% block modal %}{% endblock modal %}
+        {% block modal %}
+        
+        {% endblock modal %}
 
-        {% block scripts %}{% endblock scripts %}
+        {% block scripts %}
+        
+        {% endblock scripts %}
 
     </body>
 </html>
